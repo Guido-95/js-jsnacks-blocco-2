@@ -4,7 +4,7 @@
 
 function myFunction(array,numeroMinore,numeroMaggiore){
     // ciclca dal numero minore fino al numero maggiore
-    for (var i = numeroMinore; i <= numeroMaggiore; i++) {
+    for (var i = numeroMinore + 1 ; i < numeroMaggiore; i++) {
         // pusha il contatore nell'array
         array.push([i]); 
     }
