@@ -14,22 +14,31 @@ function getRandomInt(min, max) {
 var squadre = [
     {
         nome:"squadra 1",
-        puntiFatti:getRandomInt(0, 20),
-        falliSubiti:getRandomInt(0, 20)
+        puntiFatti:0,
+        falliSubiti:0
     }
     ,
     {
         nome:"squadra 2",
-        puntiFatti:getRandomInt(0, 20),
-        falliSubiti:getRandomInt(0, 20)
+        puntiFatti:0,
+        falliSubiti:0
     }
     , 
     {
         nome:"squadra 3",
-        puntiFatti:getRandomInt(0, 20),
-        falliSubiti:getRandomInt(0, 20)
+        puntiFatti:0,
+        falliSubiti:0
     }
 ]
+
+// sovrascrivi le proprietà
+for (var i = 0; i < squadre.length; i++) {
+    squadre[i].puntiFatti = getRandomInt (0, 20);
+    squadre[i].falliSubiti = getRandomInt (0, 20);
+    
+}
+    
+
 // stampa squadre
 console.log("squadre",squadre);
 
