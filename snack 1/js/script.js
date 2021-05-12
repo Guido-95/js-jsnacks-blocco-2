@@ -5,17 +5,17 @@
 // array di oggetti bici
 var bici = [
     {
-        nome:"bici da montagna",
+        nome:"Mountain bike",
         peso: 12
     }
     ,
     {
-        nome:"bici da strada",
+        nome:"Bici da corsa",
         peso: 10
     }
     ,
     {
-        nome:"nome prova 3",
+        nome:"Bmx",
         peso: 15
     }
 ]
